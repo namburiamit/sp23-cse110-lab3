@@ -11,37 +11,36 @@
 
 <body>
   <header>
-    <main>
-      <h1>Spring Quarter Events Draft</h1>
+    <h1>Spring Quarter Events Draft</h1>
 
-      <h2>Agenda: Brainstorm Ideas For This Quarter & Assign Roles </h2>
+    <h2>Agenda: Brainstorm Ideas For This Quarter & Assign Roles </h2>
 
-      <h3>Date: April 15, 2023</h3>
+    <h3>Date: April 15, 2023</h3>
 
-      <hr>
+    <hr>
 
-      <nav>
-        <ul>
-          <li><a href="#Attendance">Attendance</a></li>
-          <li><a href="#Agenda">Agenda</a></li>
-          <li><a href="#Notes">Notes</a></li>
-          <li><a href="#last">Unfinished Business</a></li>
-          <li><a href="#pictures">Pictures</a></li>
-          <li><a href="#video">Video and Audio</a></li>
-          <li><a href="#subscribeme">Newsletter</a></li>
-        </ul>
-      </nav>
-    </main>
+    <nav>
+      <ul>
+        <li><a href="#Attendance">Attendance</a></li>
+        <li><a href="#Agenda">Agenda</a></li>
+        <li><a href="#Notes">Notes</a></li>
+        <li><a href="#last">Unfinished Business</a></li>
+        <li><a href="#pictures">Pictures</a></li>
+        <li><a href="#video">Video and Audio</a></li>
+        <li><a href="#subscribeme">Newsletter</a></li>
+      </ul>
+    </nav>
 
     <section>
       <h4 id="Attendance">Attendance:</h4>
       <h5>Marking Attendance</h5>
-
-      <li><input type="checkbox" id="President"> <label for="President">President</label></li>
-      <li><input type="checkbox" id="VP Internal"> <label for="VP Internal">VP Internal</label></li>
-      <li><input type="checkbox" id="VP External"> <label for="VP External">VP External</label></li>
-      <li><input type="checkbox" id="Events Committee"> <label for="Events Committee">Events Committee</label></li>
-      <hr>
+      <ul>
+        <li><input type="checkbox" id="President"> <label for="President">President</label></li>
+        <li><input type="checkbox" id="VP Internal"> <label for="VP Internal">VP Internal</label></li>
+        <li><input type="checkbox" id="VP External"> <label for="VP External">VP External</label></li>
+        <li><input type="checkbox" id="Events Committee"> <label for="Events Committee">Events Committee</label></li>
+        <hr>
+      </ul>
     </section>
 
     <section>
@@ -81,8 +80,8 @@
         <li><i>Mostly introductions and socials</i></li>
         <li><i>Sending out emails to other student organizations</i></li>
         <li><i>Recruiting new staff members</i></li>
-        <br>
       </ol>
+      <br>
       <em>Let's focus on this meeting!!!</em>
       <hr>
     </section>
@@ -104,32 +103,32 @@
       <h4 id="pictures">Pictures:</h4>
       <h5>Potential organizaiton to collaborate</h5>
 
-      <img src="cseorgs.png" , height="295x">
+      <img src="cseorgs.png" height="295px" alt="Can't process the image">
 
       <hr>
     </section>
+    <main>
+      <section>
+        <h4 id="video">Video:</h4>
+        <h5>Notes of the board meeting</h5>
 
-    <section>
-      <h4 id="video">Video:</h4>
-      <h5>Notes of the board meeting</h5>
+        <video width="400" height=250px controls>
+          <source src="videoplayback.mp4" type="video/mp4">
+          Browser does not support the video tag.
+        </video>
 
-      <video width="400" height=100% controls>
-        <source src="videoplayback.mp4" type="video/mp4">
-        Browser does not support the video tag.
-      </video>
-
-      <h5>Here's audio file of the video for reference</h5>
-      <audio controls autoplay>
-        <source src="videoplayback.mp3" type="audio/m3">
-      </audio>
-      <hr>
-    </section>
+        <h5>Here's audio file of the video for reference</h5>
+        <audio controls autoplay>
+          <source src="videoplayback.mp3" type="audio/m3">
+        </audio>
+        <hr>
+      </section>
   </header>
-
+  </main>
   <footer>
     <form>
       <fieldset>
-        <h4 id= "subscribeme">CSE Newsletter:</h4>
+        <h4 id="subscribeme">CSE Newsletter:</h4>
         <label for="subscribers">Choose your browser from the list:</label>
         <input list="subscribe" name="subscribers" id="subscribers">
         <br>
@@ -179,7 +178,7 @@
 
         <br>
 
-        <button type="text">Submit</button>
+        <button type="button">Submit</button>
       </fieldset>
     </form>
 
