@@ -1,4 +1,4 @@
-# Standup Meeting - [Date]
+# Standup Meeting Notes- [Date]
 
 <<<<<<< HEAD
 ## Attendees of the meeting
