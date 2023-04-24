@@ -12,12 +12,7 @@
     font-family: 'Libre Franklin', sans-serif;
 }
 
-<<<<<<< HEAD
-#header {   
-=======
-
 #header {
->>>>>>> fe0a64b4b36cf66c62d42e9179d39c7fd72a1532
     position: relative;
     top: 0;
     background-color: white;
@@ -82,13 +77,10 @@ video {
     margin: auto;
 }
 
-<<<<<<< HEAD
-=======
 main{
     background: url("background.jpg");
 }
 
->>>>>>> fe0a64b4b36cf66c62d42e9179d39c7fd72a1532
 @media (max-width: 800px) {
     body{
         background-color:aquamarine;
@@ -104,11 +96,7 @@ video, audio{
     margin: 0 auto;
 }
 main{
-<<<<<<< HEAD
     background: url("/background.jpg");
-=======
-    background: url("background.jpg");
->>>>>>> fe0a64b4b36cf66c62d42e9179d39c7fd72a1532
 }
 
 
