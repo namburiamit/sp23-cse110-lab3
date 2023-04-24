@@ -78,6 +78,10 @@ video {
     margin: auto;
 }
 
+main{
+    background: url("background.jpg");
+}
+
 @media (max-width: 800px) {
     body{
         background-color:aquamarine;
