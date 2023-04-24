@@ -6,32 +6,68 @@
     Student Org Meeting Notes
   </title>
   <meta name="Meeting Notes" content="CS Organization Meeting Notes">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="fevicon.png">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Franklin">
 </head>
+
+<!-- Internal CSS with <style>  -->
+<style>
+  button {
+    cursor: pointer;
+    font-weight: bold;
+    width: auto;
+    border: 1px solid hsl(0, 0%, 50%);
+    font-size: 15px;
+    /* use of Relative length units */
+    padding: 1rem;
+    /* use of Absolute length units */
+    border-radius: 10Q;
+  }
+
+  button:hover {
+    background-color: gray;
+    /* use of Relative length units */
+    border-radius: 5ch;
+  }
+
+  button:active {
+    box-shadow: gray;
+    /* use of Relative length units */
+    border-radius: 3ch;
+
+  }
+</style>
 
 <body>
   <header>
-    <h1>Spring Quarter Events Draft</h1>
+
+    <div id="header">
+      <h1>
+        Spring Quarter Events Draft
+      </h1>
+    </div>
 
     <h2>Agenda: Brainstorm Ideas For This Quarter & Assign Roles </h2>
 
     <h3>Date: April 15, 2023</h3>
 
-    <hr>
+    <div class="box">
+      <nav>
+        <ul class="list">
+          <li><a href="#Attendance">Attendance</a></li>
+          <li><a href="#Agenda">Agenda</a></li>
+          <li><a href="#Notes">Notes</a></li>
+          <li><a href="#last">Unfinished Business</a></li>
+          <li><a href="#pictures">Pictures</a></li>
+          <li><a href="#video">Video and Audio</a></li>
+          <li><a href="#subscribeme">Newsletter</a></li>
+        </ul>
+      </nav>
+    </div>
 
-    <nav>
-      <ul>
-        <li><a href="#Attendance">Attendance</a></li>
-        <li><a href="#Agenda">Agenda</a></li>
-        <li><a href="#Notes">Notes</a></li>
-        <li><a href="#last">Unfinished Business</a></li>
-        <li><a href="#pictures">Pictures</a></li>
-        <li><a href="#video">Video and Audio</a></li>
-        <li><a href="#subscribeme">Newsletter</a></li>
-      </ul>
-    </nav>
 
-    <section>
+    <section style="border-color:red; border-style: solid; border-width: 5px;">
       <h4 id="Attendance">Attendance:</h4>
       <h5>Marking Attendance</h5>
       <ul>
@@ -40,10 +76,9 @@
         <li><input type="checkbox"> VP External</li>
         <li><input type="checkbox"> Events Committee</li>
       </ul>
-      <hr>
     </section>
 
-    <section>
+    <section class="agenda-box">
       <h4 id="Agenda">Agenda:</h4>
       <h5>Agenda for the meeting</h5>
       <ul>
@@ -103,6 +138,9 @@
 
       <img src="cseorgs.png" height="295" alt="Can't process the image">
 
+      <!-- The image is hidden as the display property is set to none -->
+      <img class="hide" src="hidden.png" height="295" alt="Can't process the image">
+
       <hr>
     </section>
 
@@ -110,14 +148,14 @@
   <main>
     <section>
       <h4 id="video">Video:</h4>
-      <h5>Notes of the board meeting</h5>
+      <h5 style="text-align: center;">Video of the board meeting</h5>
 
       <video width="400" height="250" controls>
         <source src="videoplayback.mp4" type="video/mp4">
         Browser does not support the video tag.
       </video>
 
-      <h5>Here's audio file of the video for reference</h5>
+      <h5 style="text-align: center;">Here's audio file of the video for reference</h5>
       <audio controls>
         <source src="videoplayback.mp3" type="audio/mp3">
         Browster doesn't support audio
