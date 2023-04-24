@@ -5,14 +5,14 @@
     margin: auto; 
     margin-bottom: 5mm;  /* use of Absolute length units */
     padding: 10px;
+
 }
 
 *{ 
     font-family: 'Libre Franklin', sans-serif;
 }
 
-#header {
-    
+#header {   
     position: relative;
     top: 0;
     background-color: white;
