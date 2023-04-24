@@ -1,0 +1,135 @@
+.box{
+    border-color: #24b86e; 
+    border-style: solid;
+    width: 100%;
+    margin: auto; 
+    margin-bottom: 5mm;  /* use of Absolute length units */
+    padding: 10px;
+
+}
+
+*{ 
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
+#header {
+    position: relative;
+    top: 0;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+ul li {
+    color: brown;
+}
+  
+nav {
+    position: static;
+    display: inline;
+    grid-template-columns: repeat(1 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1rem;
+    grid-template-rows: auto;
+}
+
+.agenda-box{
+    background-color: beige;
+    border-color: rebeccapurple;
+    border-style: solid;
+    border-width: 1mm;
+    border-radius: 5px;  /* use of Absolute length units */
+    margin-top: 1rem;
+    margin-bottom: auto;
+    margin-left: .1rem;
+    margin-right: .1rem;
+}
+
+h1, h2{
+    text-align: center;
+    color: #2c2525;
+    text-decoration: underline overline rgb(166, 43, 43);
+}
+
+a{
+    display: inline;
+}
+
+a[href="#Attendance"] {
+    color: darkgoldenrod;
+}
+
+p{
+    display: inline-block;
+}
+image{
+    display: block;
+    width: 300px;
+}
+.hide{
+    display: none;
+}
+
+video {
+    max-width: fit-content;
+    min-width: 300px;
+    height: 250px;
+    margin: auto;
+}
+
+@media (max-width: 800px) {
+    body{
+        background-color:aquamarine;
+    }
+}
+
+.list{
+    font-family: "Georgia", sans-serif;
+}
+
+video, audio{
+    display: block;
+    margin: 0 auto;
+}
+main{
+    background: url("/background.jpg");
+}
+
+
+form > input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid black;
+  }
+  
+input + label {
+    margin-left: 10px;
+}
+
+input ~ label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button.btn-primary {
+    background-color: blue;
+    color: white;
+}
+
+form > select {
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid black;
+}
+
+
+
+form > .checkbox-container, form > .radio-container {
+    margin-bottom: 10px;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: baseline;
+}
+  
+
