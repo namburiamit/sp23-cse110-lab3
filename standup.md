@@ -1,6 +1,10 @@
-# Standup Meeting - [Date]
+# Standup Meeting Notes- [Date]
 
+<<<<<<< HEAD
+## Attendees of the meeting
+=======
 ## Attendees
+>>>>>>> 73dfda75c5fe2a13b44441f4d053c37ea33a8065
 
 - [Name 1]
 - [Name 2]
