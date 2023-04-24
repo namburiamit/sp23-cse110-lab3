@@ -1,6 +1,6 @@
 # Standup Meeting - [Date]
 
-## Attendees
+## Attendees of the meeting
 
 - [Name 1]
 - [Name 2]
