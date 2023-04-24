@@ -2,8 +2,8 @@
 name: 'Issue:  Standup Template'
 about: 'Creating the standup meeting template '
 title: ''
-labels: ''
-assignees: ''
+labels: cselab
+assignees: namburiamit
 
 ---
 
